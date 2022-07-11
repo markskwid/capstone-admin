@@ -1,0 +1,63 @@
+
+<!-- 
+<?php
+
+include 'dbcon.php';
+
+if (isset($_POST['add-to-gallery'])) {
+  $image_name = $_POST['image-name'];
+  $image_posted = date('F d, Y');
+  $alert = '';
+
+  // image part
+  $image_file = $_FILES['image-file'];
+
+  $image_fileName = $_FILES['image-file']['name'];
+  $image_tmpName = $image_file['tmp_name'];
+  $image_error = $image_file['error'];
+
+  $image_fileExt = explode('.', $image_fileName);
+  $image_fileActualExt = strtolower(end($image_fileExt));
+
+  $allowed = array('jpg', 'jpeg', 'png');
+
+  if (in_array($image_fileActualExt, $allowed)) {
+    if ($image_error === 0) {
+      $file_newName = uniqid('', true) . "." . $image_fileActualExt;
+      $file_destination = "./assets/uploads/gallery/" . $file_newName;
+      move_uploaded_file($image_tmpName, $file_destination);
+      $postData = [
+        'image_name' => $image_name,
+        'image_file' => $file_destination,
+        'image_posted' => $image_posted
+      ];
+
+      $ref_table = 'gallery';
+      $postRef_result = $database->getReference($ref_table)->push($postData);
+
+      if ($postRef_result) {
+        echo $alert = '<div class="alert alert-success alert-dismissible fade show">
+                    <button type="button" class="close" data-dismiss="alert"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+                    <strong>New image has been added!</strong>
+                  </div>';
+      } else {
+        echo $alert = '<div class="alert alert-danger alert-dismissible fade show">
+                    <button type="button" class="close" data-dismiss="alert"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+                    <strong>Failed to add the image!</strong>
+                  </div>';
+      }
+    } else {
+      echo  "<div class='alert alert-warning alert-dismissible fade show'>
+                <button type='button' class='close' data-dismiss='alert'><i class='fa fa-window-close' aria-hidden='true'></i></button>
+                <strong>There's an error uploading the image. Please, try again!</strong>
+                </div>";
+    }
+  } else {
+    echo  '<div class="alert alert-warning alert-dismissible fade show">
+            <button type="button" class="close" data-dismiss="alert"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+            <strong>The file uploaded is not an image file. Please, try again!</strong>
+            </div>';
+  }
+}
+
+?> -->

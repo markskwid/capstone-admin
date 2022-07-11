@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Red+Hat+Display&display=swap');
+
+
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+.main-wrapper{
+  height: 100vh;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+
+.sidebar{
+  height: 100%; /* 100% Full-height */
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background: linear-gradient(to top, rgb(255, 109, 134), rgb(255, 190, 202) 80%); 
+  border-right: 1px solid gray;
+  font-family: 'Red Hat Display', sans-serif;
+  letter-spacing: 1px;
+  font-size: 17px;
+  transition: 0.2s;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.sidebar .header h3{
+  color: black;
+  margin-left: 12px;
+  font-family: 'Oleo Script', cursive;
+  text-shadow: 3px 3px rgb(153, 153, 153);
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.show-nav{
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+
+.sidebar a{
+  color: black;
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.icon{
+  width: 22px;
+  height: 22px;
+  margin-right: 12px;
+}
+
+.icon-search{
+  height: 25px;
+  width: 25px;
+}
+
+.icon-heading{
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.heading{
+  border: 1px solid gray;
+  padding: 12px 20px;
+  border-radius: 20px;
+  background-color: rgb(230, 230, 230);
+  box-shadow: 3px 2px gray;
+  margin-bottom: 20px;
+}
+
+.heading span{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.content-wrapper .content{
+  border: 1px solid gray;
+  padding: 10px 10px;
+  border-radius: 20px;
+  box-shadow: 3px 2px gray;
+}
+
+.content-wrapper .content .btn-primary{
+  background-color: pink;
+  border-radius: 10px;
+  box-shadow: 2px 2px gray;
+  color: rgb(97, 97, 97);
+  border: none;
+  font-weight: bold;
+}
+
+.content-wrapper .content input{
+  margin-right: 5px;
+  border-radius: 20px;
+  color: gray;
+  width: 400px;
+}
+
+.content-wrapper .content .search{
+  border-radius: 40px;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.form-inline{
+  margin-bottom: 10px;
+  margin-left: -100px;
+}
+
+.row{
+  padding: 2px 10px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  
+
+}
+
+@media only screen and (min-width: 600px) {
+  
+}

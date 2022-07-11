@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&family=Red+Hat+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: Poppins;
+  letter-spacing: 1px;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    rgb(255, 109, 134),
+    rgb(236, 147, 163) 80%
+  );
+}
+
+.main-wrapper {
+  background: linear-gradient(
+    to right,
+    rgb(255, 109, 134),
+    rgb(236, 147, 163) 80%
+  );
+}
+
+.form-container {
+  margin-top: 6%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px pink;
+}
+
+.form-container input {
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+
+.form-container .btn {
+  border-radius: 20px;
+  width: 60%;
+}
+
+.notif-box {
+  color: red;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+}
+
+.form-group {
+  padding: 7px;
+}

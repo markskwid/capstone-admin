@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Red+Hat+Display&display=swap');
+
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    height: 100vh;
+    padding: 0;
+}
+
+.sidebar{
+    background: linear-gradient(to top, rgb(255, 109, 134), rgb(255, 190, 202) 80%); 
+    padding: 12px 0px;
+    border-right: 1px solid gray;
+    font-family: 'Red Hat Display', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    height: 100%;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidebar .header h3{
+    color: black;
+    margin-left: 12px;
+    font-family: 'Oleo Script', cursive;
+    text-shadow: 3px 3px rgb(153, 153, 153);
+    font-size: 40px;
+}
+
+.show-nav{
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+.sidebar a{
+    color: black;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+.container:nth-child(1){
+    background-color: white;
+    margin-top: -12px;
+    padding: 0;
+}
+
+.container{
+    margin-top: 12px;
+    height: auto;
+    padding: 7px 7px;
+}
+
+.container:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.icon{
+    width: 22px;
+    height: 22px;
+    margin-right: 12px;
+}
+
+.icon-search{
+    height: 25px;
+    width: 25px;
+}
+
+.icon-heading{
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.content-wrapper{
+    padding: 20px 12px;
+    transition: margin-left .5s;
+}
+
+.content-wrapper .heading{
+    border: 1px solid gray;
+    padding: 12px 20px;
+    border-radius: 20px;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 3px 2px gray;
+    margin-bottom: 20px;
+}
+
+.heading span{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.content-wrapper .content{
+    border: 1px solid gray;
+    padding: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 3px 2px gray;
+}
+
+.content-wrapper .content .btn-primary{
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 2px 2px gray;
+    color: rgb(97, 97, 97);
+    border: none;
+    font-weight: bold;
+}
+
+.content-wrapper .content input{
+    margin-right: 5px;
+    border-radius: 20px;
+    color: gray;
+    width: 400px;
+}
+
+.content-wrapper .content .search{
+    border-radius: 40px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.form-inline{
+    margin-bottom: 10px;
+    margin-left: -100px;
+}
+
+.row{
+    padding: 2px 10px;
+}
+
+/** HISTORY **/
+
+.fa .fa-icon{
+    font-size: 20px;
+}
+
+/** EVENT **/
+
+.row-event{
+    padding: 10px 20px;
+}
+
+.input-event{
+    margin-left: 18px;
+    margin-right: 60px;
+    border: 1px solid gray;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 2px 2px gray;
+}
+
+.for-btn .event-submit{
+    background-color: rgb(83, 255, 83);
+    color: black;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+}
+.form-group input[type="date"]{
+    border-radius: 10px;
+    margin: 3px 3px;
+    width: 95%;
+    box-shadow: 3px 2px gray;
+}
+
+.form-group textarea{
+    border-radius: 10px;
+    margin: 3px 3px;
+    width: 95%;
+    height: 200px;
+    margin-bottom: 50px;
+    resize: none;
+    box-shadow: 3px 2px gray;
+}
+
+.event-display{
+    border: 1px solid gray;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 2px 2px gray;
+}
+
+.event-display .event-container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-shadow: 2px 2px gray;
+    margin-top: 10px;
+}
+
+/** DASHBOARD **/
+.container-sm{
+    width: 250px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: pink;
+    padding: 5px 5px;
+    box-shadow: 3px 2px gray;
+}
+
+.container-sm h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.icon-dashboard{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.container-md{
+    width: 520px;
+    margin: 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: pink;
+    padding: 10px 10px;
+    box-shadow: 3px 2px gray;
+}
+
+.container-md .event-container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-shadow: 3px 2px gray;
+    margin-top: 10px;
+}
+
+
+/** APPOINTMENT **/
+
+.container-input{
+    width: 600px;
+    margin: 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: pink;
+    padding: 10px 10px;
+    box-shadow: 3px 2px gray;
+}
+
+.booking-display{
+    border: 1px solid gray;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 2px 2px gray;
+}
+
+.booking-display .book-container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-shadow: 3px 2px gray;
+    margin-top: 10px;
+}
+
+.input-book{
+    margin-left: 18px;
+    margin-right: 60px;
+    border: 1px solid gray;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 2px 2px gray;
+}
+
+.input-book .form-group input[type="date"]{
+    width: 40%;
+}
+
+.time-button{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 134, 154);
+    border: none;
+    box-shadow: 2px 2px gray;
+    font-size: 15px;
+    
+}
+
+.for-btn-time{
+    margin-left: 100px;
+}
+
+.time-button:hover{
+    background-color: rgb(255, 71, 101);
+}
+.customer-info{
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 10px 20px;
+    margin-bottom: 0;
+}
+
+.customer-info label{
+    font-weight: bold;
+}
+.customer-info .form-group:nth-child(odd){
+    margin-right: 80px;
+}
+
+.customer-info .form-group input[type="text"]{
+    width: 250px;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px gray;
+}
+
+.customer-info .form-group select{
+    width: 250px;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px gray;
+}
+
+
+/** MEDIA QUERY FOR RESPONSIVE DISPLAY **/
+
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  @media only screen and (min-width: 600px) {
+    .sidebar .closebtn {
+        display: none;
+     }
+ 
+     .show-nav{
+        display: none;
+       }
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+
+   
+
+    .main{
+        height: 100%;
+    }
+    .show-nav{
+        margin-bottom: 30px;
+        border-radius: 10px;
+      }
+
+    .navbar{
+        display: none;
+    }
+
+    .sidebar{
+        font-size: 12px;
+    }
+
+    .sidebar h3{
+        margin: 0;
+        padding: 5px 8px;
+    }
+
+    .heading{
+        width: 100vh;
+    }
+
+
+    .content{
+        height: auto;
+        width: auto;
+        display: inline-block;
+    }
+
+    .content-wrapper button{
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .form-inline input[type="text"]{
+        width: 200px;
+        margin: 0;
+    }
+  
+
+  }
+
+  

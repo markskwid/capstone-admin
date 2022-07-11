@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "trendz-ph",
+  "private_key_id": "3fcbd2c827b9a4f4aebfb033c11b01e38d577c81",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCpE0cgHA5adXN2\ne03eES98fnCzKgF0Twr7ND2CK3y7ecB6JNlzeCbUNoTqYDW0B74cMiH8uYgtRMz6\neBqw1QA2zhkLjhigiXFOWDDw2xKJtQVPPiHqi7XIpYgVUvaNF1b9OmuzB4/nFcy6\nG9PgtYF2Cj7y4W0kv5DoYdm9cJ86VFWsrJ57cmXyjgVb3npVM7ZKJZv1XBXd05v1\nw83q0wCl4FEWe7lNXCKya6ZNFYG54urJTSOwuI0DStj0nk4SBzgiIyPB47n69+xR\nhu+0Q8QX++ld7+5Clv7Wu6V80Xx1HdBPuUsQiHGf/CAoSfhpsmoek4iQ4SSapef4\ndR/uHlJ/AgMBAAECgf8Ml+/lHOZb7nubjCF42Ge3hrGjXuWqatOBRf586feRRxv0\nZ/LE9VA1E4XLlvX+QDz8L4paYY2Bu5e8kw7wVgyL9hP4ER14+Nnuf6bYN3Vyxt+M\n3+E93hBjgOtibJyUn88aeFwQDRKQNVg5bJ5EhMbw3iGy4zbt23DGRYG8GpI7MaJl\n86czc3FGYr9l01R8FTcs8S7GQfJ0qz96yrs1X7OEB130ZABV7Aw3hOx2AwvFlhit\n9RbUPrz2AtSu7m5R2ggvoRvLq3YUN7okxIMVTYl2heMfCfwyRBcapkaz/fMk8k3U\nmT4wwJZ8/P/3bX+2QYNYnGNLk5zv8ZAlsal/V5UCgYEA2Nqn51vgrhtEChc1BUub\nDYwUpcJeppAJECxflS0v5fRu5n95FGSERLvpX1dIk+KEWiAkooYePpcEupDslQbQ\n/FiAUMLSaKd1Sn72ccyDM+xGYc6j9skarVxTAkQYIx3In1s7EcqLizG3nYS6eUq9\ntrFYFRNHe1wJxL3KVS3KqT0CgYEAx5imMVRz+bjaUKi1UloQAcDshSLKy6xJq6Ue\njXDXQ99S7JM2nnFuB6hjzQuHJiggJzGvKM7mC21fFKHmqb6LMP6e6sATU6MPmBgg\n01uUgBf5K8AY8RRF6HJ1A5zbRlGgTck53rUTuZ8VcI52dm/CA91YhVDHRhss3cWV\nQOnNTmsCgYAv3py/6r0/Uc+ENrlCkP0KUYjhSnXgaN1HT7RN1urC5WFxymPtB39X\nOO/8VuUzmAZFauELa3XTtTya/pDrGNUbT2IL8eXGqmiu6DX4yv+Pf7HNt3LkcGJO\nMJo2XtfBMLrvypDQjZieQnxY7krHqaMVaDKcfGQELD4PyyGWCgS5tQKBgQCic+cI\njYFbho4CSl5SacVPeBPKBNhkT5UipGEqo+ZBctoOfX9eFFqG1xJryG82qkAJRpIX\nN9bbBCj4JRIVpGWr+gGkdbMFRtmhZDoLbSV/4INIjbB/P43qtIXy6884+6TqytZU\nIrOsSAPuObXHjgyukpDC6U1YDTRGSNPDIsicgwKBgQC9xNqbJmjNhzJ9wtnVCrBU\nz5gs6X03OA6WcVzJUSwhZybkwnFjVH7tphRxLWT8aba0KTAtMbtl7uASxEdv9+k+\noiz2Gb3NJQQke5fRvJLzyfm6UisQKvPlEeW/WV8rHHzigmA1SrnYd3v0QKbDPg6p\nR4WZaU1pq8fk7RGNhLu6HA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "mark-ponce-bacsal@trendz-ph.iam.gserviceaccount.com",
+  "client_id": "104319567210632170361",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mark-ponce-bacsal%40trendz-ph.iam.gserviceaccount.com"
+}

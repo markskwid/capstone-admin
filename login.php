@@ -17,10 +17,12 @@
         <?php include './includes/authentication.php'; ?>
         <div class="col-md-4 form-container mx-auto">
 
-            <h2 class="text-center">LOGIN</h2>
+            <a href="./dashboard.php">
+                <h2 class="text-center">LOGIN</h2>
+            </a>
             <p class="text-center">Welcome, Admin!</p>
 
-           
+
 
 
             <form method="POST" autocomplete="off">
@@ -35,12 +37,12 @@
                 </div>
 
                 <div class="custom-control custom-switch ml-3 mb-4">
-                    <input type="checkbox" class="custom-control-input" id="switch1" onclick="myFunction()">
+                    <input type="checkbox" class="custom-control-input" id="switch1">
                     <label class="custom-control-label" for="switch1">Show Password</label>
                 </div>
 
                 <div class="mb-4 text-center">
-                    <button type="submit" name="admin-login" class="btn btn-success btn-modal">LOGIN<i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                    <a href="./dashboard.php"> <button type="submit" name="admin-login" class="btn btn-success btn-modal">LOGIN<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
                 </div>
 
 
@@ -59,16 +61,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("admin-password");
-            if (x.type === "password") {
-                x.type = "text";
-            } else {
-                x.type = "password";
-            }
-        }
-    </script>
 
 </body>
 

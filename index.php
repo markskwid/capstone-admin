@@ -1,3 +1,10 @@
+<?php
+if (isset($_POST['go-log'])) {
+	header('location: ./dashboard.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,9 +79,9 @@
 					</div>
 
 					<div class="container-login100-form-btn">
-						<button type="submit" class="login100-form-btn">
-							Login
-						</button>
+						<a href="./dashboard.php"><button type="submit" name='go-log' class="login100-form-btn">
+								Login
+							</button></a>
 					</div>
 				</form>
 			</div>
